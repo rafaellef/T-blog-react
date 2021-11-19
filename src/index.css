@@ -5,7 +5,11 @@
 * {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  color: #333
+  color: #AAAA84
+}
+
+body {
+  background-color: #000000;
 }
 
 .navbar {
@@ -18,7 +22,7 @@
 }
 
 .navbar h1 {
-  color: #f1356d;
+  color: #688C31;
 }
 
 .navbar .links {
@@ -32,7 +36,7 @@
 }
 
 .navbar a:hover {
-  color: #f1356d;
+  color: #688C31;
 }
 
 .content {
@@ -53,6 +57,124 @@
 
 .blog-preview h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #688C31;
   margin-bottom: 8px;
+}
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+.blog-details h2 {
+  font-size: 20px;
+  color: #688C31;
+  margin-bottom: 10px;
+}
+
+.blog-details div {
+  margin: 20px 0;
+}
+
+.blog-details button {
+  background: #9B1804;
+  border: 0;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.blog-details button:hover {
+  background: #688C31;
+}
+
+.create h2 {
+  color: #688C31;
+}
+
+.create {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.create form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.create textarea {
+  height: 100px;
+}
+
+.create label {
+  font-size: 1.1rem;
+  margin: 10px;
+}
+
+.create button {
+  margin-top: 40px;
+  height: 40px;
+  background-color: #9B1804;  
+}
+
+.create button:hover {
+  background-color: #688C31;
+}
+
+.create input, textarea, select, option {
+  color: #000000;
+  padding-left: 5px;
+}
+
+/*Novo estilo*/
+
+ .create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+
+.create h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button {
+  border: 0;
+  padding: 8px;
+  cursor: pointer;
+} 
+
+.not-found h2 {
+  color: #688C31;
+  margin: 20px 0;
+  font-size: 30px;
+}
+
+.not-found p {
+  margin: 25px 0;
+  font-size: 20px;
+}
+
+.link-back {
+  font-size: 18px;
+}
+
+.link-back:hover {
+  color: #9B1804;
+  cursor: pointer;
 }
